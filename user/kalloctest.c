@@ -1,9 +1,9 @@
-#include "kernel/param.h"
-#include "kernel/types.h"
-#include "kernel/stat.h"
-#include "kernel/riscv.h"
-#include "kernel/memlayout.h"
-#include "user/user.h"
+#include "../kernel/param.h"
+#include "../kernel/types.h"
+#include "../kernel/stat.h"
+#include "../kernel/riscv.h"
+#include "../kernel/memlayout.h"
+#include "../user/user.h"
 
 #define NCHILD 2
 #define N 100000
